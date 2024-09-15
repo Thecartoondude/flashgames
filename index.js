@@ -171,10 +171,10 @@ var Module = typeof Module != 'undefined' ? Module : {};
           var files = metadata['files'];
           for (var i = 0; i < files.length; ++i) {
             DataRequest.prototype.requests[files[i].filename].onload();
-          }          Module['removeRunDependency']('datafile_wasm/index.data');
+          }          Module['removeRunDependency']('datafile_wasm/data.rsdk');
 
       };
-      Module['addRunDependency']('datafile_wasm/index.data');
+      Module['addRunDependency']('datafile_wasm/data.rsdk');
 
       if (!Module.preloadResults) Module.preloadResults = {};
 
