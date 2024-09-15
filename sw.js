@@ -1,9 +1,9 @@
-var _cacheName = 'sonicmania-9282022';
+var _cacheName = 'Sonic 1';
 var _cacheFiles = [
-	'RSDKv5.html',
-	'RSDKv5.js',
-	'RSDKv5.wasm',
-  'https://files.catbox.moe/xsfgty.rsdk'
+	'index.html',
+	'index.js',
+	'index.data',
+  'https://sonicwasm.netlify.app/Data.Rsdk'
 ];
 	
 self.addEventListener('install', (e) => {
